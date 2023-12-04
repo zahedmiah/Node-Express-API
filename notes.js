@@ -40,4 +40,26 @@ Modules:
 
 npm init -y ---- this initializes a new node.js project and creates a new 'package.json' file (everything default)
 
+.gitignore:
+node_modules
+
+Upcoming topics - 2:27:00
+- Event Loop, Async patterns, Events emitted
+- Mains concept
+- Pre-built code
+
+Event Loop:
+Evenloop is what allow Node.js to perform non-blocking I/O operations,
+despite JS being single threaded, by offloading operations to the system kernel
+
+Async await syntax is cleaner
+
+Event-driven programming
+Used heavily in Node.js
+
+Streams:
+- writeable
+- readable
+- duplex
+- transform
 */
